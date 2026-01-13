@@ -4,7 +4,7 @@
 A sarcastic instruction-tuned Llama model that delivers **correct answers with a sharp, roasting tone**.  
 Not polite. Very accurate. Use with caution.
 
----
+
 
 ## 🔥 Overview
 
@@ -15,7 +15,7 @@ It is designed for:
 - Personality-driven assistants
 - Experiments with tone and style in LLMs
 
----
+
 
 ## ✨ Features
 
@@ -26,13 +26,13 @@ It is designed for:
 - Hugging Face–compatible outputs
 - Code-only, reproducible setup
 
----
+
 
 ## 🧠 Base Model
 
 - **Meta Llama 3.2 Instruct**
 
----
+
 
 ## 🏗️ Project Structure
 
@@ -54,7 +54,7 @@ salty-llama-3.2-instruct/
 └── README.md
 ```
 
----
+
 
 ## 🛠️ Requirements
 
@@ -66,7 +66,7 @@ salty-llama-3.2-instruct/
 pip install -r requirements.txt
 ```
 
----
+
 
 ## 📚 Dataset
 
@@ -84,7 +84,7 @@ Format:
 }
 ```
 
----
+
 
 ## 🏋️ Training (LoRA Fine-Tuning)
 
@@ -92,7 +92,7 @@ Format:
 python training/finetune_lora.py
 ```
 
----
+
 
 ## 🧪 Inference
 
@@ -100,7 +100,7 @@ python training/finetune_lora.py
 python inference/inference.py
 ```
 
----
+
 
 ## 🧪 Evaluation
 
@@ -108,35 +108,3 @@ python inference/inference.py
 python eval/eval_tone.py
 ```
 
----
-
-## ⚠️ Important Notes
-
-- Code-only repository
-- Upload weights to Hugging Face, not GitHub
-- Use Git LFS for large files
-
----
-
-## 📜 License
-
-Apache License 2.0
-
----
-
-## 🎯 Use Cases
-
-- Personality-based chatbots
-- Entertainment assistants
-- LLM style and tone research
-
----
-
-## ⚠️ Disclaimer
-
-This model intentionally uses sarcasm and mild roasting.  
-Not recommended for sensitive or professional environments.
-
----
-
-**Built for fun, experimentation, and controlled chaos.**
